@@ -1,0 +1,8 @@
+server:
+  port: ${port:3030}
+spring:
+  cloud: 
+    stream:
+      bindings:
+        hello:
+          destination: hello-queue
